@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
-    
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
-     <link href="https://fonts.google.com/specimen/Sarpanch?preview.text=LOGIN&preview.size=27&preview.text_type=custom"  rel="stylesheet">
-
+    <link href="https://fonts.google.com/specimen/Sarpanch?preview.text=LOGIN&preview.size=27&preview.text_type=custom" rel="stylesheet">
     <title>Login</title>
 </head>
 
 <body>
     <div id="main">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
         <div id="img-container">
             <div class="star">
                 <span></span>
@@ -38,24 +48,18 @@
                 <span></span>
             </div>
             <div class="static star-1"></div>
-            <div class="static  star-2"></div>
-            <div class="static  star-3"></div>
+            <div class="static star-2"></div>
+            <div class="static star-3"></div>
             <div id="form-container">
-                <P>Welcome to the Website</P>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    dolore magna aliqua.
-                </p>
+                <p>Welcome to the Website</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliqua.</p>
             </div>
-            
             <a id="register" href="/register">Create Account</a>
-
-
             <img id="img" src="./images/background.jpg" alt="img" />
         </div>
 
         <div id="txt">
-            <p>USER LOGIN </p>
+            <p>USER LOGIN</p>
             <br>
             <form id="form" action="" method="post">
                 <div class="input-container">
@@ -73,16 +77,22 @@
                 <div class="container">
                     <input type="checkbox" id="remember">
                     <label for="remember">Remember me</label>
-                   
                     <a href="/password-reset">Forgot Password?</a>
-                   
                 </div>
-                <button type="submit">LOGIN</button>
+                <button type="submit">Login</button>
             </form>
         </div>
-
-
+   
+    <div class="footer">
+        <p id="footer-text">
+            Made By
+            <a href="https://github.com/F4OST" target="_blank" id="dev-link">F4OST</a>
+        </p>
+    
+        <img src="./images/github.png " alt="github logo" width="50" height="50" />
     </div>
-</body>
+</div>
+    
 
+</body>
 </html>
